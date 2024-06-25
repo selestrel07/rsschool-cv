@@ -46,3 +46,30 @@ function countSmileys(arr) {
     return arr.filter(el => el.match(/[:;]{1}[-~]{0,1}[D\)]{1}/)).length;
 }
 ```
+
+## Work History
+
++   Senior QA Automation Engineer\
+    EIS Ltd., Minsk/Tbilisi, Belarus/Georgia\
+    December 2019-October 2023
++   QA Automation Engineer\
+    Capsilon, Minsk, Belarus\
+    November 2018-December 2019
++   QA Autonation Engineer\
+    EIS Ltd., Minsk, Belarus\
+    September 2017-November 2018
+
+## Education
+
+Bachelor’s Degree in Education (Teacher of mathematics and computer science)\
+Belarussian State University, Minsk, Belarus\
+Graduated: 2010
+
+## Languages
++ English: Intermediate
++ Belarussian: Native
++ Russian: Native
+
+
+
+
