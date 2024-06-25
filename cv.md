@@ -7,7 +7,6 @@
 Email: [kulevich.dzmitry@gmail.com](mailto:kulevich.dzmitry@gmail.com)\
 Linkedin: [Dzmitry Kulevich](https://www.linkedin.com/in/dzmitry-kulevich/)\
 Telegram: [@selestrel](https://t.me/selestrel)
-***
 
 ## Professional Summary
 
