@@ -1,12 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Dzmitry Kulevich CV</title>
-</head>
-<body>
-    <header></header>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Dzmitry Kulevich CV</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#summary">About Me</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#code">Code Example</a></li>
+                    <li><a href="#workhistory">Work History</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#languages">Languages</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <aside>
+                <figure><img src="./img/Avatar.jpg" alt="Dzmitry Kulevich photo"></figure>
+                <h1>Kulevich Dzmitry</h1>
+                <article>
+                    <h2>Contact Information</h2>
+                    <div>
+                        <ul>
+                            <li>Email: <a href="mailto:kulevich.dzmitry@gmail.com">kulevich.dzmitry@gmail.com</a></li>
+                            <li>Linkedin: <a href="https://www.linkedin.com/in/dzmitry-kulevich/">Dzmitry Kulevich</a></li>
+                            <li>Telegram: <a href="https://t.me/selestrel">@selestrel</a></li>
+                        </ul>
+                    </div>
+                </article>
+            </aside>
+            <section>
+                <article>
+                    <h2 id="summary">Professional Summary</h2>
+                    <div>
+                        Experienced QA Automation Engineer with over 6 years of proven expertise in developing 
+                        robust test frameworks, creating and executing automated test scripts, 
+                        and mentoring team members. Adept at operating within the Scrum framework, 
+                        I have successfully monitored bug resolutions and provided valuable QA perspectives to 
+                        enhance overall software quality.
+                        My dedication to excellence is showcased through my proactive approach to anticipating 
+                        and addressing potential issues, aiding developers in mitigating future challenges. 
+                        With a strong foundation in quality assurance, I am now poised to transition my career 
+                        to a JavaScript Software Developer role.
+                    </div>
+                </article>
+                <article>
+                    <h2 id="skills">Skills and Proficiency</h2>
+                    <div>
+                        <ul>
+                            <li>CSS</li>
+                            <li>HTML</li>
+                            <li>JavaScript</li>
+                            <li>SQL
+                                <ul>
+                                    <li>PostgreSQL</li>
+                                    <li>MySQL</li>
+                                    <li>OracleSQL</li>
+                                </ul>
+                            </li>
+                            <li>Git</li>
+                            <li>Java</li>
+                            <li>Maven</li>
+                            <li>Spring</li>
+                            <li>Selenium</li>
+                            <li>Jira</li>
+                        </ul>
+                    </div>
+                </article>
+                <article>
+                    <h2 id="code">Code Example</h2>
+                    <div>
+                        <h3><b>Count the smiley faces! KATA from CodeWars:</b></h3>
+                        Given an array (arr) as an argument complete
+                        the function countSmileys that should return the total number of smiling faces.
+                        Rules for a smiling face:
+                        Each smiley face must contain a valid pair of eyes. Eyes can be marked as <i>:</i> or <i>;</i>
+                        A smiley face can have a nose but it does not have to. Valid characters for a nose are 
+                        <i>-</i> or <i>~</i>
+                        Every smiling face must have a smiling mouth that should be marked with either <i>)</i> or <i>D</i>
+                        No additional characters are allowed except for those mentioned.
+                        Valid smiley face examples: <i>:) :D ;-D :~)</i>
+                        Invalid smiley faces: <i>;( :> :} :]</i>
+                        <code>
+                            function countSmileys(arr) {
+                                return arr.filter(el => el.match(/[:;]{1}[-~]{0,1}[D\)]{1}/)).length;
+                            }
+                        </code>
+                    </div>
+                </article>
+                <article>
+                    <h2 id="workhistory">Work History</h2>
+                    <div>
+                        <ul>
+                            <li>
+                                <h3>Senior QA Automation Engineer</h3>
+                                <p>EIS Ltd., Minsk/Tbilisi, Belarus/Georgia<br>December 2019-October 2023</p>
+                            </li>
+                            <li>
+                                <h3>QA Automation Engineer</h3>
+                                <p>Capsilon, Minsk, Belarus<br>November 2018-December 2019</p>
+                            </li>
+                            <li>
+                                <h3>QA Automation Engineer</h3>
+                                <p>EIS Ltd.,  Minsk, Belarus<br>September 2017-November 2018</p>
+                            </li>
+                        </ul>
+                    </div>
+                </article>
+                <article>
+                    <h2 id="education">Education</h2>
+                    <div>
+                        <h3>Bachelor’s Degree in Education (Teacher of mathematics and computer science)</h3>
+                        <p>Belarussian State University, Minsk, Belarus<br>Graduated: 2010</p>
+                    </div>
+                </article>
+                <article>
+                    <h2 id="languages">Languages</h2>
+                    <div>
+                        <ul>
+                            <li>English: intermediate</li>
+                            <li>Belarussian: native</li>
+                            <li>Russian: native</li>
+                        </ul>
+                    </div>
+                </article>
+            </section>
+        </main>
+        <footer>
+            <div><a href="https://github.com/selestrel07">GitHub</a></div>
+            <div> &copy; 2024</div>
+            <div>
+                <img src="./img/rsschool-logo.svg" alt="RS School logo">
+                <a href="https://rs.school/courses/javascript-ru">RS School</a>
+            </div>
+        </footer>
+    </body>
 </html>
