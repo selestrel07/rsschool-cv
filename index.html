@@ -26,13 +26,20 @@
                 <article>
                     <h2 id="contact">Contact Information</h2>
                     <div>
-                        <ul>
-                            <li>Email: <a href="mailto:kulevich.dzmitry@gmail.com">kulevich.dzmitry@gmail.com</a></li>
-                            <li>Linkedin: 
-                                <a href="https://www.linkedin.com/in/dzmitry-kulevich/" target="_blank">Dzmitry Kulevich</a>
-                            </li>
-                            <li>Telegram: <a href="https://t.me/selestrel" target="_blank">@selestrel</a></li>
-                        </ul>
+                        <table>
+                            <tr>
+                                <td class="source">Email:</td>
+                                <td><a href="mailto:kulevich.dzmitry@gmail.com">kulevich.dzmitry@gmail.com</a></td>
+                            </tr>
+                            <tr>
+                                <td class="source">Linkedin:</td>
+                                <td><a href="https://www.linkedin.com/in/dzmitry-kulevich/" target="_blank">Dzmitry Kulevich</a></td>
+                            </tr>
+                            <tr>
+                                <td class="source">Telegram:</td>
+                                <td><a href="https://t.me/selestrel" target="_blank">@selestrel</a></td>
+                            </tr>
+                        </table>
                     </div>
                 </article>
             </aside>
@@ -78,26 +85,28 @@
                 </article>
                 <article>
                     <h2 id="code">Code Example</h2>
+                    <h3><b>Count the smiley faces! KATA from CodeWars</b></h3>
                     <div>
-                        <h3><b>Count the smiley faces! KATA from CodeWars:</b></h3>
-                        Given an array (arr) as an argument complete
+                        Given an array (arr) as an argument, complete
                         the function countSmileys that should return the total number of smiling faces.
-                        Rules for a smiling face:
-                        Each smiley face must contain a valid pair of eyes. Eyes can be marked as <i>:</i> or <i>;</i>
-                        A smiley face can have a nose but it does not have to. Valid characters for a nose are 
-                        <i>-</i> or <i>~</i>
-                        Every smiling face must have a smiling mouth that should be marked with either <i>)</i> or <i>D</i>
-                        No additional characters are allowed except for those mentioned.
+                        Rules for a smiling face:<br><br>
+                        Each smiley face must contain a valid pair of eyes.<br> Eyes can be marked as <i>:</i> or <i>;</i><br>
+                        A smiley face can have a nose but it does not have to.<br> Valid characters for a nose are 
+                        <i>-</i> or <i>~</i><br>
+                        Every smiling face must have a smiling mouth that should be marked with either <i>)</i> or <i>D</i><br>
+                        No additional characters are allowed except for those mentioned.<br><br>
                         Valid smiley face examples: <i>:) :D ;-D :~)</i>
                         Invalid smiley faces: <i>;( :> :} :]</i>
-                        <code>
-                            function countSmileys(arr) {
-                                return arr.filter(el => el.match(/[:;]{1}[-~]{0,1}[D\)]{1}/)).length;
-                            }
-                        </code>
+                        <pre>
+                            <code>
+function countSmileys(arr) {
+   return arr.filter(el => el.match(/[:;]{1}[-~]{0,1}[D\)]{1}/)).length;
+}
+                            </code>
+                        </pre>
                     </div>
                 </article>
-                <article>
+                <article class="workhistory">
                     <h2 id="workhistory">Work History</h2>
                     <div>
                         <ul>
@@ -119,11 +128,11 @@
                 <article>
                     <h2 id="education">Education</h2>
                     <div>
-                        <h3>Bachelor’s Degree in Education (Teacher of mathematics and computer science)</h3>
-                        <p>Belarussian State University, Minsk, Belarus<br>Graduated: 2010</p>
+                        <h4>Bachelor’s Degree in Education (Teacher of mathematics and computer science)</h4>
+                        <p>Belarussian State University, Minsk, Belarus. Graduated: 2010</p>
                     </div>
                 </article>
-                <article>
+                <article class="languages">
                     <h2 id="languages">Languages</h2>
                     <div>
                         <ul>
@@ -137,9 +146,9 @@
         </main>
         <footer>
             <div><a href="https://github.com/selestrel07" target="_blank">GitHub</a></div>
-            <div>&copy; 2024</div>
+            <div id="copyright">&copy; 2024</div>
             <div>
-                <a href="https://rs.school/courses/javascript-ru">
+                <a href="https://rs.school/courses/javascript-ru" target="_blank">
                     <img src="./img/rsschool-logo.svg" alt="RS School logo">
                 </a>
             </div>
